@@ -25,7 +25,7 @@ export default function Home() {
       >
         <div className="bg-pink-100  p-10 rounded-3xl md:rounded-full h-9/12 w-9/12 md:w-1/2 outline outline-1 outline-red-500">
           <div className="flex items-center justify-center relative ">
-            <div className="text-red-400 text-5xl md:text-7xl font-bold absolute text-center">
+            <div className="text-red-400 text-4xl md:text-7xl font-bold absolute text-center">
               Happy Valentine&apos;s Day
             </div>
             <Image
@@ -39,9 +39,11 @@ export default function Home() {
           <hr className="border-2 border-red-500" />
           <div className="text-center flex flex-col items-center justify-center relative">
             <div
-              className={`text-red-500 text-4xl my-10 font-semibold ${playfairdisplay.className}`}
+              className={`text-red-500 text-xl  md:text-3xl my-10 font-semibold ${playfairdisplay.className}`}
             >
               Grateful for the meaningful chats and fun conversations with you.
+              Even though we are still getting to know each other, it has been
+              fun.
             </div>
             <Image
               priority
