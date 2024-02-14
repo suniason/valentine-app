@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Valentine</title>
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   )
 }
