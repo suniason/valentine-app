@@ -65,8 +65,8 @@ export default function Home() {
           <motion.img
             src="heart.svg"
             alt="Valentine Heart"
-            height={450}
-            width={450}
+            height={400}
+            width={400}
             initial={{ scale: 1 }}
             animate={{ scale: 1.2 }}
             transition={{
