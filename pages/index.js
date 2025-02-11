@@ -20,7 +20,7 @@ export default function Home() {
   const textColor = useTransform(
     scrollY,
     [0, 300, 400],
-    ["#f44336", "#f44336", "#ffffff"]
+    ["#e11d48", "#e11d48", "#ffffff"]
   );
 
   const messageOpacity = useTransform(scrollY, [400, 700], [0, 1]);
