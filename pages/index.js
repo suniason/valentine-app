@@ -41,7 +41,7 @@ export default function Home() {
   const imageSize = useTransform(scrollY, [100, 400], [500, 0]);
 
   return (
-    <div className="w-full h-[250dvh] relative">
+    <div className="w-full h-[250dvh]">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <HeartAnimation />
       </div>
