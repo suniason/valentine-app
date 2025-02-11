@@ -50,7 +50,7 @@ export default function Home() {
           background: bgColor,
           color: textColor,
         }}
-        className="sticky top-0 w-full h-screen flex flex-col justify-center items-center text-center px-5 -z-20  "
+        className="sticky top-0 w-full h-screen flex flex-col justify-center items-center text-center -z-20"
       >
         <motion.div
           style={{
@@ -65,8 +65,8 @@ export default function Home() {
           <motion.img
             src="heart.svg"
             alt="Valentine Heart"
-            height={400}
-            width={400}
+            height={500}
+            width={500}
             initial={{ scale: 1 }}
             animate={{ scale: 1.2 }}
             transition={{
@@ -79,7 +79,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className={`text-4xl lg:text-8xl font-bold z-10 ${parisienne.className}`}
+          className={`text-6xl lg:text-8xl font-bold z-10 ${parisienne.className}`}
         >
           Happy Valentine&apos;s Day
         </motion.div>
