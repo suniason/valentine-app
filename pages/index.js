@@ -65,8 +65,8 @@ export default function Home() {
           <motion.img
             src="heart.svg"
             alt="Valentine Heart"
-            height={500}
-            width={500}
+            height={450}
+            width={450}
             initial={{ scale: 1 }}
             animate={{ scale: 1.2 }}
             transition={{
@@ -79,7 +79,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className={`text-6xl lg:text-8xl font-bold z-10 ${parisienne.className}`}
+          className={`text-4xl lg:text-8xl font-bold z-10 ${parisienne.className}`}
         >
           Happy Valentine&apos;s Day
         </motion.div>
@@ -94,9 +94,9 @@ export default function Home() {
             y: messageTranslate,
             height: messageDisplay,
           }}
-          className={`m-5 text-2xl lg:text-4xl w-full lg:w-3/4 font-semibold ${playfairdisplay.className}`}
+          className={`m-5  w-full lg:w-3/4 font-semibold ${playfairdisplay.className}`}
         >
-          <div className="p-4 lg:p-12 rounded-lg ">
+          <div className="p-4 lg:p-12 rounded-lg text-xl lg:text-3xl ">
             {`Thank you for the months of loving me bii. 
           Hopefully maabtan og years and decades, mayta gali og forever. 
           Kahibaw ko nga naa man gyud usahay mga problema pero malampasan ra na nato.
@@ -104,7 +104,7 @@ export default function Home() {
           Looking forward to more memories bisan wa ko kaayoy picture.
           `}
           </div>
-          <div className="text-4xl lg:text-5xl font-bold capitalize p-4 lg:p-12">
+          <div className="text-2xl lg:text-5xl font-bold capitalize p-4 lg:p-12">
             {`I love you very much always and forever.❤️`}
           </div>
         </motion.div>
