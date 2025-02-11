@@ -14,7 +14,7 @@
 :root {
   --size: 20px;
   min-height: 250dvh;
-  background: linear-gradient(to bottom, #ff85e1, #fc92a4 40%, #d84c6f 80%);
+  background: linear-gradient(to bottom, #f68cdb, #f9a3b2 50%, #fd87a4 100%);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
