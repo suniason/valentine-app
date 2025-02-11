@@ -2,28 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Geist";
+  src: url("https://assets.codepen.io/605876/GeistVF.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
 :root {
-  min-height: 100%;
-  background-image: linear-gradient(
-    to right bottom,
-    #c20470,
-    #cd0083,
-    #d60097,
-    #dd00ae,
-    #e100c7,
-    #e12bd1,
-    #e040db,
-    #df50e4,
-    #dd6cdf,
-    #da83da,
-    #d698d4,
-    #d1abcf
-  );
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: color;
+  --size: 20px;
 }
 
 body {
+  display: grid;
+  place-items: center;
+  min-height: 250dvh;
+  background: #fbd2d7;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.heart {
+  position: absolute;
+  top: -50%;
+  transform: rotate(-45deg);
+}
+
+.heart:before {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+.heart:after {
+  position: absolute;
+  top: 0;
+  right: -50%;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+@keyframes love {
+  0% {
+    top: 110%;
+  }
 }

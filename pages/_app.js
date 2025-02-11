@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Valentine</title>
+        <title>Happy Valentine&apos;s Day</title>
       </Head>
       <Component {...pageProps} />
     </>
