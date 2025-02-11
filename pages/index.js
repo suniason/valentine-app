@@ -13,9 +13,10 @@ export default function Home() {
 
   const bgColor = useTransform(
     scrollY,
-    [0, 300, 400],
-    ["none", "none", "#b71c1c"]
+    [0, 200, 300, 400, 600],
+    ["none", "none", "#fc92a4", "#d84c6f", "#b71c1c"]
   );
+
   const textColor = useTransform(
     scrollY,
     [0, 300, 400],
