@@ -79,7 +79,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className={`text-6xl lg:text-8xl font-bold z-10 ${parisienne.className}`}
+          className={`text-5xl lg:text-8xl font-bold z-10 ${parisienne.className}`}
         >
           Happy Valentine&apos;s Day
         </motion.div>
